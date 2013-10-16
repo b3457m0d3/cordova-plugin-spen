@@ -1,4 +1,4 @@
-cordova-plugin-geolocation
+cordova-plugin-spen
 ---------------------------
 To install this plugin, follow the [Command-line Interface Guide](http://cordova.apache.org/docs/en/edge/guide_cli_index.md.html#The%20Command-line%20Interface).
 
