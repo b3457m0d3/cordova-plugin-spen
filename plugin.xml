@@ -11,18 +11,18 @@ xmlns:android="http://schemas.android.com/apk/res/android"
     <license>Apache 2.0</license>
     <keywords>cordova,canvas</keywords>
 
-    <!-- android<config-file target="res/xml/config.xml" parent="/*"></config-file> -->
+    <!-- android -->
     <platform name="android">
 
         <js-module src="www/SpenPlugin.js" name="SCanvas">
             <clobbers target="SCanvas" />
         </js-module>
 
-
-        <feature name="SCanvas">
+        <config-file target="res/xml/config.xml" parent="/*">
+            <feature name="SCanvas">
 	            <param name="android-package" value="org.apache.cordova.plugin.SCanvas"/>
 	        </feature>
-
+        </config-file>
 
         <source-file src="src/android/SpenPlugin.java" target-dir="src/org/apache/cordova/plugin" />
         <source-file src="src/android/SCanvas.java" target-dir="src/com/rub" />
