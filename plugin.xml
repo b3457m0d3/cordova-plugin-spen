@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+xmlns:rim="http://www.blackberry.com/ns/widgets"
+xmlns:android="http://schemas.android.com/apk/res/android"
+           id="org.apache.cordova.plugin.SCanvas"
+      version="0.3.2">
+
+    <name>SCanvas</name>
+    <description>Canvas for Samsung SPen</description>
+    <license>Apache 2.0</license>
+    <keywords>cordova,canvas</keywords>
+
+    <!-- android<config-file target="res/xml/config.xml" parent="/*"></config-file> -->
+    <platform name="android">
+
+        <js-module src="www/SpenPlugin.js" name="SCanvas">
+            <clobbers target="SCanvas" />
+        </js-module>
+
+
+        <feature name="SCanvas">
+	            <param name="android-package" value="org.apache.cordova.plugin.SCanvas"/>
+	        </feature>
+
+
+        <source-file src="src/android/SpenPlugin.java" target-dir="src/org/apache/cordova/plugin" />
+        <source-file src="src/android/SCanvas.java" target-dir="src/com/rub" />
+        <source-file src="src/android/libspen23.jar"
+                     target-dir="lib/libspen23.jar" />
+    </platform>
+
+
+
+
+</plugin>
