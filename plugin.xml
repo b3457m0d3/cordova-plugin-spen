@@ -28,6 +28,33 @@ xmlns:android="http://schemas.android.com/apk/res/android"
         <source-file src="src/android/SCanvas.java" target-dir="src/com/rub" />
         <source-file src="src/android/libspen23.jar"
                      target-dir="lib/libspen23.jar" />
+        <source-file src="src/android/res/drawable" target-dir="src/org/apache/cordova/plugin" />
+        <source-file src="src/res/drawable-ldpi/close.png" target-dir="res/drawable-ldpi" />
+        <source-file src="src/res/drawable-ldpi/pencil.png" target-dir="res/drawable-ldpi" />
+        <source-file src="src/res/drawable-ldpi/eraser.png" target-dir="res/drawable-ldpi" />
+        <source-file src="src/res/drawable-ldpi/ic_launcher.png" target-dir="res/drawable-ldpi" />
+        <source-file src="src/res/drawable-ldpi/icon.png" target-dir="res/drawable-ldpi" />
+        <source-file src="src/res/drawable-ldpi/undo.png" target-dir="res/drawable-ldpi" />
+        <source-file src="src/res/drawable-ldpi/redo.png" target-dir="res/drawable-ldpi" />
+        <source-file src="src/res/drawable-hdpi/ic_action_search.png" target-dir="res/drawable-hdpi" />
+        <source-file src="src/res/drawable-hdpi/ic_launcher.png" target-dir="res/drawable-hdpi" />
+        <source-file src="src/res/drawable-xhdpi/ic_action_search.png" target-dir="res/drawable-xhdpi" />
+        <source-file src="src/res/drawable-xhdpi/ic_launcher.png" target-dir="res/drawable-xhdpi" />
+        <source-file src="src/res/values/styles.xml" target-dir="res/values" />
+        <source-file src="src/res/values/strings.xml" target-dir="res/values" />
+        <source-file src="src/res/values-v14/styles.xml" target-dir="res/values-v14" />
+        <source-file src="src/res/menu/canvas_menu.xml" target-dir="res/menu" />
+        <source-file src="src/res/values-v11/styles.xml" target-dir="res/values-v11" />
+        <source-file src="src/res/drawable-mdpi/ic_action_search.png" target-dir="res/drawable-mdpi" />
+        <source-file src="src/res/drawable-mdpi/ic_launcher.png" target-dir="res/drawable-mdpi" />
+        <source-file src="src/res/layout/canvas_view.xml" target-dir="res/layout" />
+
+
+
+
+
+
+
     </platform>
 
 
