@@ -1,4 +1,8 @@
 cordova-plugin-spen
+
+* I plan on updating this for use with the new versions of phonegap and the samsung mobile sdk.  anyone wanna help?  p submit 
+
+
 ---------------------------
 To install this plugin, follow the [Command-line Interface Guide](http://cordova.apache.org/docs/en/edge/guide_cli_index.md.html#The%20Command-line%20Interface).
 
